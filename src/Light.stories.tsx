@@ -5,6 +5,7 @@ import Light from './Light';
 const meta: Meta<typeof Light> = {
     component : Light,
     title: 'Light',
+    tags:['autodocs'],
     argTypes:{
         variant:{
             control:{type: 'select'},
