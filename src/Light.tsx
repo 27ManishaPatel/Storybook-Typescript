@@ -1,6 +1,9 @@
 type Props = {
+// Three trafic lights
     variant: 'green' | 'yellow' | 'red'
 };
+
+// Light component with style 
 
  const Light =({variant = 'green'}: Props)=> {
     return <div style={{
